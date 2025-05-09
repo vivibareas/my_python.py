@@ -1,0 +1,7 @@
+import random
+
+random_number = random.randint(1, 10)
+print("I picked a natural number between 1 and 10. Guess the number:")
+answer = input()
+print()
+print("I picked " + str(random_number) + ".")

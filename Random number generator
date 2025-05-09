@@ -1,0 +1,15 @@
+import random
+counter = 0
+print("How many random numbers do you want to generate?")
+counter_max = int(input())
+print("Minimum possible value:")
+min = int(input())
+print("Maximum possible value:")
+max = int(input())
+
+print()
+print("Your numbers:")
+while counter < counter_max:
+	output = random.randint(min, max)
+	print(output)
+	counter = counter + 1
